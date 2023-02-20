@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Ubuntu:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.content {
+    width: 100% ;
+    background: rgba(0, 0, 0, 0);
+
+
+}
+
+.container {
+    width:90%;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.link__nav {
+        color: black;
+}
+
+.nav__list{
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.2rem;
+}
+.logo {
+    letter-spacing: 1px;
+    font-size: 2rem;
+    color: blue;
+}
+span {
+    color: black;
+}
+
+.nav__button {
+ display: flex;
+ justify-content: flex-end;
+ align-items:center;
+ gap: 30px;
+
+}
+.button__header{
+    margin: 10px 0 ;
+}
+
+.nav__button>h5 {
+ font-size: 1.2rem;
+ color: rgb(87, 94, 94);
+}
+.nav__button>button {
+    transition: 2s;
+    margin-top: 10px;
+    font-size: 1.1rem;
+     color: rgb(99, 83, 83);
+    background: white;
+    padding: 12px 26px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: rgb(151, 137, 137);
+}
+.link__nav:hover  {
+    transition: 0.2s;
+    color: cornflowerblue;
+}
+.nav__button>button:hover {
+    color: rgb(63, 45, 45);
+    transition: 2s;
+    background-color: rgb(185, 157, 157) ;
+    border-color: rgb(148, 114, 114) ;
+}
+
+.main__text {
+     margin: 50px 0;
+    font-size: 2.5rem;
+    color: rgb(189, 171, 153);
+}
+
+.lorem__1 {
+    line-height: 20px;
+    font-size: 1.2rem;
+    width:400px;
+}
+
+
+
+.grid__main1 {
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap:600px;
+
+}
+
+.image__2 {
+    width:30%;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+
+.flex__1 {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.flex__login {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login__card {
+width:650px;
+height: 400px;
+background-color: white;
+border-radius: 15px;
+}
+
+
+.login__card>h2{
+margin-top: 40px;
+font-size: 2.3rem;
+text-align: center;
+}
+
+.login__card>h3 {
+font-size: 1.5rem;
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+color: cadetblue;
+}
+
+.login__form {
+width: 100%;
+margin: 0;
+display: grid;
+gap: 10px;
+margin-left: 60px;
+
+}
+
+.input1 {
+border: 2px solid;
+padding: 10px;
+width:80%;
+height: 40px;
+ outline:none;
+ border-radius: .58rem;
+ border-color: rgb(199, 185, 185);
+}
+.input2 {
+padding: 10px;
+width:80%;
+height: 40px;
+ outline:none;
+ border: 2px solid;
+ border-radius: .58rem;
+ border-color: rgb(199, 185, 185);
+}
+.school__26 {
+padding-left: 180px;
+text-decoration: none;
+font-size: 1.1rem;
+}
+
+button {
+width:80%;
+padding: 10px;
+border: 2px solid;
+border-color: rgb(76, 76, 192);
+background-color: rgb(76, 76, 192);
+border-radius: 1rem;
+color: white;
+font-size: 1.5rem;
+}
+
+
+.section3__main__login {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+ .image__aniamtion {
+    animation-name: name;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes name {
+
+    0% {
+        margin: 0 0;
+    }
+
+    50% {
+        margin: 50px 0;
+    }
+
+}

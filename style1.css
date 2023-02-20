@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Ubuntu:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main__text {
+    margin: 20px 0;
+    font-size: 2.5rem;
+    color: rgb(237, 140, 140);
+}
+
+
+
+.conteaner {
+    width:90%;
+    margin: 0 auto;
+}
+
+
+.navigation {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.link__nav {
+        color: black;
+}
+
+.nav__list{
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.2rem;
+}
+.logo {
+    letter-spacing: 1px;
+    font-size: 2rem;
+    color: blue;
+}
+span {
+    color: black;
+}
+
+.nav__button {
+ display: flex;
+ justify-content: flex-end;
+ align-items:center;
+ gap: 30px;
+
+}
+.button__header{
+    margin: 10px 0 ;
+}
+
+.nav__button>h5 {
+ font-size: 1.2rem;
+ color: rgb(87, 94, 94);
+}
+.nav__button>button {
+    transition: 2s;
+    margin-top: 10px;
+    font-size: 1.1rem;
+     color: rgb(99, 83, 83);
+    background: white;
+    padding: 12px 26px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: rgb(151, 137, 137);
+}
+.link__nav:hover  {
+    transition: 0.2s;
+    color: cornflowerblue;
+}
+.nav__button>button:hover {
+    color: rgb(63, 45, 45);
+    transition: 2s;
+    background-color: rgb(185, 157, 157) ;
+    border-color: rgb(148, 114, 114) ;
+}
+
+.image__vectori {
+    border: 1px solid rgb(120, 113, 113);
+    width: 430px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 400px 430px; 
+    gap: 500px;
+}
+
+.lorem {
+    margin: 40px 0;
+    width:400px;
+    line-height: 25px;
+    font-size: 1.3rem;
+}
+
+.image2 {
+    border: 1px solid rgb(140, 112, 112);
+    border-radius: 20px;
+    width:350px;
+    height: 350px;
+}
+
+.lorem__2 {
+    margin-top: 20px;
+    width:400px;
+    line-height: 25px;
+    font-size: 1.3rem;
+}
+.grid2   {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.image__vectori1 {
+    width:400px;
+    height: 400px;
+    border: 1px solid rgb(165, 70, 216);
+    border-radius: 50%;
+}
+
+.flex__1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.grid__{
+ display: grid;
+ grid-template-columns: 400px 400px;
+ padding: 40px 0;
+ gap: 550px;
+
+}
